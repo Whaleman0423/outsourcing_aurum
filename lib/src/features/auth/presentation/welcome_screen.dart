@@ -43,66 +43,66 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   ),
                 ),
               ),
-              const SizedBox(height: 30),
+              // const SizedBox(height: 30),
               // 應用名稱
-              const Text(
-                'Arurm',
-                style: TextStyle(
-                  fontFamily: 'Roboto',
-                  fontSize: 36,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                ),
-              ),
+              // const Text(
+              //   'Arurm',
+              //   style: TextStyle(
+              //     fontFamily: 'Roboto',
+              //     fontSize: 36,
+              //     fontWeight: FontWeight.bold,
+              //     color: Colors.white,
+              //   ),
+              // ),
               const Spacer(),
               // Login 按鈕
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 40),
-                child: ElevatedButton(
-                  onPressed: () {
-                    // 登入按鈕的動作
-                  },
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color(0xFFF5A623), // 按鈕顏色
-                    minimumSize: const Size(double.infinity, 50), // 設置按鈕寬度和高度
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(12), // 按鈕圓角
-                    ),
-                  ),
-                  child: const Text(
-                    'Login',
-                    style: TextStyle(
-                      fontSize: 18,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-              ),
-              const SizedBox(height: 10),
+              // Padding(
+              //   padding: const EdgeInsets.symmetric(horizontal: 40),
+              //   child: ElevatedButton(
+              //     onPressed: () {
+              //       // 登入按鈕的動作
+              //     },
+              //     style: ElevatedButton.styleFrom(
+              //       backgroundColor: const Color(0xFFF5A623), // 按鈕顏色
+              //       minimumSize: const Size(double.infinity, 50), // 設置按鈕寬度和高度
+              //       shape: RoundedRectangleBorder(
+              //         borderRadius: BorderRadius.circular(12), // 按鈕圓角
+              //       ),
+              //     ),
+              //     child: const Text(
+              //       'Login',
+              //       style: TextStyle(
+              //         fontSize: 18,
+              //         color: Colors.black,
+              //       ),
+              //     ),
+              //   ),
+              // ),
+              // const SizedBox(height: 10),
               // Register 按鈕
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 40),
-                child: OutlinedButton(
-                  onPressed: () {
-                    // 註冊按鈕的動作
-                  },
-                  style: OutlinedButton.styleFrom(
-                    side: const BorderSide(color: Color(0xFFF5A623), width: 2),
-                    minimumSize: const Size(double.infinity, 50),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                  ),
-                  child: const Text(
-                    'Register',
-                    style: TextStyle(
-                      fontSize: 18,
-                      color: Color(0xFFF5A623),
-                    ),
-                  ),
-                ),
-              ),
-              const Spacer(),
+              // Padding(
+              //   padding: const EdgeInsets.symmetric(horizontal: 40),
+              //   child: OutlinedButton(
+              //     onPressed: () {
+              //       // 註冊按鈕的動作
+              //     },
+              //     style: OutlinedButton.styleFrom(
+              //       side: const BorderSide(color: Color(0xFFF5A623), width: 2),
+              //       minimumSize: const Size(double.infinity, 50),
+              //       shape: RoundedRectangleBorder(
+              //         borderRadius: BorderRadius.circular(12),
+              //       ),
+              //     ),
+              //     child: const Text(
+              //       'Register',
+              //       style: TextStyle(
+              //         fontSize: 18,
+              //         color: Color(0xFFF5A623),
+              //       ),
+              //     ),
+              //   ),
+              // ),
+              // const Spacer(),
             ],
           ),
         ),
