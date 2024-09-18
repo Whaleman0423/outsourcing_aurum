@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 import './app_colors.dart';
+import './app_font_families.dart';
 
 class AppThemes {
   static ThemeData primaryTheme = ThemeData(
     colorSchemeSeed: AppColors.primaryColor,
+    fontFamily: AppFontFamilies.poetsenOneRegular,
     unselectedWidgetColor: Colors.grey,
     appBarTheme: const AppBarTheme(
       backgroundColor: AppColors.primaryColor,

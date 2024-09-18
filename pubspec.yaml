@@ -20,6 +20,7 @@ dependencies:
   freezed_annotation: ^2.4.4
   json_annotation: ^4.9.0
   get_storage: ^2.1.1
+  sign_in_button: ^3.2.0
 
 dev_dependencies:
   flutter_test:
@@ -42,3 +43,12 @@ flutter:
   assets:
     - assets/welcome/
   #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: PoetsenOneRegular
+      fonts:
+        - asset: fonts/PoetsenOne-Regular.ttf
+    
+    - family: SFProTextRegular
+      fonts:
+        - asset: fonts/sf-pro-text-regular.ttf

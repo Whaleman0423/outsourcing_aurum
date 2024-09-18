@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
+import '../features/auth/presentation/login_screen.dart';
 import '../features/auth/presentation/welcome_screen.dart';
 import '../features/counter/presentation/counter_screen.dart';
 import './not_found_screen.dart';
@@ -21,6 +22,10 @@ GoRouter goRouter(GoRouterRef ref) {
       GoRoute(
         path: '/welcome',
         builder: (context, state) => const WelcomeScreen(),
+      ),
+      GoRoute(
+        path: '/welcome_login',
+        builder: (context, state) => const LoginScreen(),
       ),
     ],
     errorPageBuilder: (context, state) => const NoTransitionPage(
