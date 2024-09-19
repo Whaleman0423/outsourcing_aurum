@@ -9,8 +9,11 @@ class AppSizes {
   static const p20 = 20.0;
   static const p24 = 24.0;
   static const p32 = 32.0;
+  static const p36 = 36.0;
   static const p48 = 48.0;
   static const p64 = 64.0;
+  static const p72 = 72.0;
+  static const p300 = 300.0;
 }
 
 /// Constant gap widths
@@ -34,3 +37,4 @@ const gapH24 = SizedBox(height: AppSizes.p24);
 const gapH32 = SizedBox(height: AppSizes.p32);
 const gapH48 = SizedBox(height: AppSizes.p48);
 const gapH64 = SizedBox(height: AppSizes.p64);
+const gapH72 = SizedBox(height: AppSizes.p72);

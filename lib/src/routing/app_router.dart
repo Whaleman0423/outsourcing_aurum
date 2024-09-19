@@ -1,8 +1,8 @@
 import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import '../features/auth/presentation/login_screen.dart';
-import '../features/auth/presentation/welcome_screen.dart';
+import '../features/auth/presentation/screens/login_screen.dart';
+import '../features/auth/presentation/screens/welcome_screen.dart';
 import '../features/counter/presentation/counter_screen.dart';
 import './not_found_screen.dart';
 

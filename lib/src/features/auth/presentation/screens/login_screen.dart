@@ -11,12 +11,6 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   bool _obscurePassword = true;
 
-  void _togglePasswordVisibility() {
-    setState(() {
-      _obscurePassword = !_obscurePassword;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,7 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             Container(
               alignment: Alignment.centerLeft,
-              child: Text(
+              child: const Text(
                 'Welcome back!',
                 style: TextStyle(
                   color: Colors.white,
@@ -258,5 +252,11 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
       ),
     );
+  }
+
+  void _togglePasswordVisibility() {
+    setState(() {
+      _obscurePassword = !_obscurePassword;
+    });
   }
 }

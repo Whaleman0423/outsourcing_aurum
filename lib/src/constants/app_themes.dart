@@ -6,7 +6,7 @@ import './app_font_families.dart';
 class AppThemes {
   static ThemeData primaryTheme = ThemeData(
     colorSchemeSeed: AppColors.primaryColor,
-    fontFamily: AppFontFamilies.poetsenOneRegular,
+    fontFamily: AppFontFamilies.sfProTextRegular,
     unselectedWidgetColor: Colors.grey,
     appBarTheme: const AppBarTheme(
       backgroundColor: AppColors.primaryColor,
